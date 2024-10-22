@@ -9,9 +9,9 @@ deepspeed==0.13.1
 pydantic==2.6.3
 addict
 fire
-PyYAML>=6.0
+PyYAML==6.0
 requests
-datasets>=2.15.0
+datasets==2.18.0
 flash-attn==2.3.3
 sentencepiece
 wandb
@@ -21,7 +21,7 @@ optimum==1.16.2
 hf_transfer
 colorama
 numba
-numpy>=1.24.4
+numpy==1.26.0
 # qlora things
 evaluate==0.4.1
 scipy
@@ -39,4 +39,4 @@ s3fs
 gcsfs
 # adlfs
 
-trl>=0.7.9
+trl==0.7.11
